@@ -1,0 +1,17 @@
+// Select the message to subcribe
+{
+    "header": {
+        "timestamp":"123456789",
+        "msg_type":"subscribe"
+    },
+    "body": {
+        "version":"1.0",
+        "device_type": "1",
+        "subscribe":{ 
+             "notify"  : 1,
+             "warning" : 0,
+             "planning": 1,
+             "platoon" : 0
+        }
+    }
+}

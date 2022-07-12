@@ -1,0 +1,10 @@
+// Ask OBU to send planning message
+{
+    "header": {
+        "timestamp":"123456789",
+        "msg_type":"planning"
+    },
+    "body": {
+        "ts":"123456789"
+    }
+}

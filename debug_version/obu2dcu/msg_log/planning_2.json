@@ -1,0 +1,10 @@
+{
+    "header": {
+        "timestamp":"123456789",
+        "msg_type":"planning"
+    },
+    "body": {
+        "ts":"",
+        "last_ret":"NOT_EXIST"
+    }
+}

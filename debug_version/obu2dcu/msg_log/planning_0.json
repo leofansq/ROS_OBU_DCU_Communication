@@ -1,0 +1,56 @@
+{
+    "header": {
+        "timestamp":"123456789",
+        "msg_type":"planning"
+    },
+    "body": {
+        "ts":"123456789",
+        "area_id":"abc",
+        "level":"a",
+        "reason":"request",
+        "dest":"xxx",
+        "option":"",
+        "last_ret":"OK",
+        "key_points":[
+            {
+                "type":"ROUTE_START",
+                "lat":11.1111111,
+                "lon":11.1111111,
+                "heading":250
+            },
+            {
+                "lat":22.2222222,
+                "lon":22.2222222
+            },
+            {
+                "type":"STATION",
+                "lat":33.3333333,
+                "lon":33.3333333
+            },
+            {
+                "type":"ROUTE_STOP",
+                "lat":44.4444444,
+                "lon":44.4444444,
+                "heading":359
+            }
+        ],
+        "trail":  [
+            {
+                "lat":11.1234567,
+                "lon":11.1234567
+            },
+            {
+                "lat":22.1234567,
+                "lon":22.1234567
+            },
+            {
+                "lat":33.1234567,
+                "lon":33.1234567
+            },
+            {
+                "lat":44.1234567,
+                "lon":44.1234567
+            }
+        ]
+    }
+}
